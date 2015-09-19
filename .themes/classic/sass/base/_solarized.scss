@@ -43,4 +43,9 @@ $pre-bg: $base03 !default;
 $pre-border: darken($base02, 5) !default;
 $pre-color: $base1 !default;
 
+$marker:        rgba(#00FF00, .8) !default;
+$marker-bg:     rgba($marker, .3) !default;
+$marker-border: rgba($marker, .5) !default;
+$marker-border-left:   $marker !default;
 
+$code-selection-color: false !default;
