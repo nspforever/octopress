@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
 group :development do
+  gem 'maruku', '0.7.2'
+  gem 'rake', '~> 10.0'
+  gem 'jekyll', '2.0'
   gem 'rake', '~> 10.0'
   gem 'jekyll', '~> 2.0'
   gem 'octopress-hooks', '~> 2.2'
